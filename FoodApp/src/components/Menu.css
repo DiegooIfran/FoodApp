@@ -1,0 +1,24 @@
+.menu {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 32px 20px;
+    text-align: center;
+}
+
+.back-link {
+    color: var(--accent);
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.back-link:hover {
+    text-decoration: underline;
+}
+
+.card-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    margin-top: 24px;
+    justify-content: center;
+}
